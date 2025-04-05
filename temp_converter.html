@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tempterature Converter </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color: #cecece;">
+    
+    <div id="temp_converter">
+        <form onsubmit="convert()">
+            <h1> Temperature Converter </h1>
+            <input type="text" placeholder="Enter value" id="numbervalue" /><br/>
+
+            <input type="radio" id="CelsiusToFahrenheit" value="fahrenheit" name="conversionType" />
+            <label for="CelsiusToFahrenheit"> Celsius to farinheit</label><br/>
+
+            <input type="radio" id="FahrenheitToCelsius" value="Celsius" name="conversionType" />
+            <label for="FahrenheitToCelsius"> farinheit to Celsius</label><br/>
+
+            <input type="submit" value="Submit" />
+
+            <div id="result"></div>
+        </form>
+    </div>
+
+    <script src="scripts/temp_converter.js"></script>
+</body>
+</html>

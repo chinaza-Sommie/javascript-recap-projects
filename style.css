@@ -3,3 +3,41 @@
     font-weight: bold;
     font-style: italic;
 }
+
+/* temperature Converter (page: temp_converter) */
+#temp_converter{
+    display: flex;
+    justify-content: center;
+}
+
+#temp_converter form{
+    padding: 25px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
+
+#temp_converter form input[type= "text"]{
+    padding: 5px 10px;
+    /* background-color: ; */
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#temp_converter form input[type= "Submit"]{
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+#temp_converter form #result{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px
+}
